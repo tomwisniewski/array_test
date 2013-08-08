@@ -6,7 +6,7 @@ class Array
       if total
         total = yield(total, self[i])
       else
-      total = self[i]
+        total = self[i]
       end  
     end  
     total
